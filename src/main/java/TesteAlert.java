@@ -57,7 +57,7 @@ public class TesteAlert {
 		Assert.assertEquals("Digite um numero", alerta.getText());
 		alerta.sendKeys("12");
 		alerta.accept();
-		//Assert.assertEquals("Era 12?", alerta.getText());
+		Assert.assertEquals("Era 12?", alerta.getText());
 		alerta.accept();
 		Assert.assertEquals(":D", alerta.getText());
 		alerta.accept();
